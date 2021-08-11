@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #e58e26;
+    opacity: 0.7;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.header-left{
+    float: left
+}
+
+.logo-jogja{
+    width: 45px;
+    height: 50px;
+    padding: 10px 50px;
+}
+
+.header-right{
+    float: right;
+    padding-right: 50px;
+}
+
+.header-right li{
+    line-height: 35px;
+    float: right;
+    padding: 0 25px;
+    color: white;
+}
+
+li a{
+    color: white;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.jogja-wrapper{
+    background-image: url(https://cdn.audleytravel.com/-/-/79/030237185202125027082187206132200224161103201034.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 200px 0;
+}
+
+.jogja-wrapper h1{
+    font-size: 130px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3.5px;
+}
+
+.opening{
+    text-align: center;
+    height: 350px;
+    padding-bottom: 30px;
+
+}
+
+.opening h2{
+    border-top: 10px solid #e58e26;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 50px;
+}
+
+.btn{
+    background-color: #dcdde1;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin: 20px 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    opacity: 0.8;
+}
+
+.fa{
+    margin-right: 10px;
+    color: #e58e26;
+}
+
+.btn p{
+    color: #e58e26;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.wisata-wrapper{
+    height: 500px;
+}
+
+.wisata-wrapper h2{
+    border-top: 10px solid #e58e26;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+
+.wisata-wrapper h3{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 45px;
+}
+
+.wisata-wrapper p{
+    font-family: 'Roboto Slob', serif;
+    font-size: 30px;
+}
+
+.wisata-jogja{
+    margin: 50px auto;
+    float: left;
+}
+
+.content-wisata{
+    float: left;
+    width: 50%;
+}
+
+.content-wisata img{
+    height: 175%;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.content-wisata p, h3{
+    padding-left: 80px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.content-wisata-2{
+    float: right;
+    width: 50%;
+}
+
+.content-wisata-2 img{
+    height: 175%;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.content-wisata-2 p, h3{
+    padding-left: 80px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.message h3,p{
+    text-align: center
+}
+
+.message h3{
+    font-family: 'Style Script', cursive;
+    font-size: 50px;
+}
+
+.message p{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 20px;
+    margin-top: auto;
+}
+
+.button-more{
+    background-color: #e58e26;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+    margin: 20px 45%;
+}
+
+.button-more a{
+    color: white;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #e58e26;
+    height: 40px;
+}
+
+footer p{
+    float: right;
+    font-size: 12px;
+}
