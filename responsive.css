@@ -1,0 +1,177 @@
+@media(max-width: 1000px){
+    .header-right{
+      display: none;
+    }
+    
+    .menu-icon{
+        display: block;
+    }
+    
+    .jogja-wrapper{
+      padding: 125px;
+    }
+    
+    .jogja-wrapper h1{
+      font-size: 60px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+    }
+    
+    .opening h2{
+      border-top: 5px solid #e58e26;
+      padding-top: 20px;
+      font-size: 30px;
+    }
+    
+    .btn{
+      font-size: 15px;
+      width: 120px;
+      height: 120px;
+    }
+    
+    .wisata-wrapper h2{
+      border-top: 5px solid #e58e26;
+      font-size: 35px;
+    }
+    
+    .wisata-wrapper h3{
+      font-size: 25px;
+    }
+    
+    .wisata-wrapper p{
+      font-size: 15px;
+    }
+    
+    .content-wisata img{
+      height: 50%;
+      width: 100%;
+      padding-left: 10px;
+    }
+    
+    .content-wisata p, h3{
+      padding-left: 20px;
+      margin-top: auto;
+      margin-bottom: 10px;
+    }
+    
+    .content-wisata-2 img{
+      height: 50%;
+      width: 100%;
+      padding-left: 30px;
+    }
+
+    .content-wisata-2 p, h3{
+      padding-left: 20px;
+      margin-top: auto;
+      margin-bottom: 10px;
+    }
+    
+    .message h3{
+      font-size: 30px;
+    }
+    
+    .message p{
+      font-size: 15px;
+    }
+    
+    .button-more{
+      margin: 20px 37%;
+    }
+    
+    footer{
+      height: 25px;
+    }
+}
+
+@media(max-width: 670px){
+  .jogja-wrapper{
+    padding: 75px;
+    }
+    
+  .jogja-wrapper h1{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    }
+    
+  .opening{
+    height: 500px;
+  }  
+    
+  .opening h2{
+    border-top: 5px solid #e58e26;
+    padding-top: 10px;
+    font-size: 23px;
+    }
+    
+  .btn{
+    font-size: 10px;
+    width: 70px;
+    height: 70px;
+    }
+    
+  .fa{
+    margin-left: 10px;
+    color: #e58e26;
+  }
+  
+  .wisata-wrapper h2{
+    font-size: 25px;
+  }
+  
+  .wisata-wrapper h3{
+    font-size: 15px;
+  }
+  
+  .wisata-wrapper p{
+    font-size: 10px;
+  }
+  
+  .content-wisata img{
+    height: 30%;
+    width: 100%;
+    padding-left: 10px;
+  }
+  
+  .content-wisata p, h3{
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .content-wisata-2 img{
+    height: 30%;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .content-wisata-2 p, h3{
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message h3{
+    font-size: 20px;
+  }
+    
+  .message p{
+    font-size: 10px;
+  }
+    
+  .button-more{
+    margin: 20px 37%;
+    width: 85px;
+    height: 25px;
+  }
+  
+  .button-more a{
+    font-size: 10px;
+  }
+    
+  footer{
+    height: 10px;
+  }
+  
+  footer p{
+    font-size: 7px;
+  }
+}
