@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
 }
@@ -27,7 +31,8 @@ header{
 .logo-jogja{
     width: 45px;
     height: 50px;
-    padding: 10px 50px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .header-right{
@@ -68,9 +73,8 @@ li a{
 
 .opening{
     text-align: center;
-    height: 350px;
+    height: 400px;
     padding-bottom: 30px;
-
 }
 
 .opening h2{
@@ -91,7 +95,11 @@ li a{
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    opacity: 0.8;
+    opacity: 0.7;
+}
+
+.btn:hover{
+    opacity: 1;
 }
 
 .fa{
@@ -110,7 +118,6 @@ li a{
 
 .wisata-wrapper h2{
     border-top: 10px solid #e58e26;
-    padding-top: 20px;
     font-family: 'Lucida Sans', sans-serif;
     font-size: 65px;
     text-align: center;
@@ -127,7 +134,7 @@ li a{
 }
 
 .wisata-jogja{
-    margin: 50px auto;
+    margin: 50px 0;
     float: left;
 }
 
@@ -137,7 +144,7 @@ li a{
 }
 
 .content-wisata img{
-    height: 175%;
+    height: 100%;
     width: 100%;
     padding-left: 30px;
 }
@@ -188,7 +195,7 @@ li a{
     border-radius: 20px;
     width: 180px;
     height: 50px;
-    margin: 20px 45%;
+    margin: 20px 43%;
 }
 
 .button-more a{
@@ -205,4 +212,16 @@ footer{
 footer p{
     float: right;
     font-size: 12px;
+}
+
+.menu-icon{
+    color: white;
+    float: right;
+    display: none;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  
+ .clear{
+   clear: left;
 }
